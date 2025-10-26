@@ -1,0 +1,94 @@
+{
+  "placeholderImages": [
+    {
+      "id": "profile-picture",
+      "description": "A portrait of a man",
+      "imageUrl": "/1745640488701.jpeg",
+      "imageHint": "man portrait"
+    },
+    {
+      "id": "project-voice-automation",
+      "description": "Voice automation project",
+      "imageUrl": "https://images.unsplash.com/photo-1616329967295-4adbd4660c45?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHx2b2ljZSUyMGF1dG9tYXRpb258ZW58MHx8fHwxNzYxMzkzNTAwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "voice automation"
+    },
+    {
+      "id": "project-f1-predictor",
+      "description": "F1 predictor project",
+      "imageUrl": "https://images.unsplash.com/photo-1543796076-c8a565501995?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxyYWNlJTIwY2FyfGVufDB8fHx8MTc2MTMyNTYxMHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "race car"
+    },
+    {
+      "id": "project-web-scraper",
+      "description": "Web scraper project",
+      "imageUrl": "https://images.unsplash.com/photo-1613677135043-a2512fbf49fa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Y29kZSUyMG1hdHJpeHxlbnwwfHx8fDE3NjEzMTYxNTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "code matrix"
+    },
+    {
+      "id": "project-flight-finder",
+      "description": "Flight deal finder project",
+      "imageUrl": "https://images.unsplash.com/photo-1558285549-2a06f9a5fe65?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxhaXJwbGFuZSUyMHdpbmd8ZW58MHx8fHwxNzYxMzE2MTUxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "airplane wing"
+    },
+    {
+      "id": "project-doc-verification",
+      "description": "Document verification project",
+      "imageUrl": "https://images.unsplash.com/photo-1730085422169-34326b455760?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxkb2N1bWVudCUyMHNlY3VyaXR5fGVufDB8fHx8MTc2MTM5MzY2NHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "document security"
+    },
+    {
+      "id": "project-call-audit",
+      "description": "Call audit project",
+      "imageUrl": "https://images.unsplash.com/photo-1560264357-8d9202250f21?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxjYWxsJTIwY2VudGVyfGVufDB8fHx8MTc2MTM5MzY2NHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "call center"
+    },
+    {
+      "id": "project-facial-recognition",
+      "description": "Facial expression recognition project",
+      "imageUrl": "https://images.unsplash.com/photo-1618593706014-06782cd3bb3b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxmYWNpYWwlMjByZWNvZ25pdGlvbnxlbnwwfHx8fDE3NjEzOTM2NjR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "facial recognition"
+    },
+    {
+      "id": "project-asl",
+      "description": "American Sign Language project",
+      "imageUrl": "https://images.unsplash.com/photo-1693168058181-7781540896d5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxzaWduJTIwbGFuZ3VhZ2V8ZW58MHx8fHwxNzYxMzkzNjY0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "sign language"
+    },
+    {
+      "id": "project-dnn",
+      "description": "Deep Neural Network project",
+      "imageUrl": "https://images.unsplash.com/photo-1644325349124-d1756b79dd42?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxuZXVyYWwlMjBuZXR3b3JrfGVufDB8fHx8MTc2MTMyMDYyMnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "neural network"
+    },
+    {
+      "id": "project-disease-prediction",
+      "description": "Disease prediction project",
+      "imageUrl": "https://images.unsplash.com/photo-1681184286316-48808efc5a9b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxkaXNlYXNlJTIwcHJlZGljdGlvbnxlbnwwfHx8fDE3NjEzOTM5MjN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "disease prediction"
+    },
+    {
+      "id": "project-ai-healthcare",
+      "description": "AI Healthcare system project",
+      "imageUrl": "https://images.unsplash.com/photo-1636249253913-40e83d5423e9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxhaSUyMGhlYWx0aGNhcmV8ZW58MHx8fHwxNzYxMzkzOTIzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "ai healthcare"
+    },
+    {
+      "id": "project-pantry-tracker",
+      "description": "Pantry tracker project",
+      "imageUrl": "https://images.unsplash.com/photo-1624831466206-5b15053baabb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxwYW50cnklMjBncm9jZXJpZXN8ZW58MHx8fHwxNzYxMzkzOTIzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "pantry groceries"
+    },
+    {
+      "id": "project-currency-converter",
+      "description": "Currency converter project",
+      "imageUrl": "https://images.unsplash.com/photo-1651340927948-26826aaef4b0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjdXJyZW5jeSUyMGV4Y2hhbmdlfGVufDB8fHx8MTc2MTM0ODI4MXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "currency exchange"
+    },
+    {
+      "id": "project-amazon-clone",
+      "description": "Amazon clone project",
+      "imageUrl": "https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxlY29tbWVyY2UlMjB3ZWJzaXRlfGVufDB8fHx8MTc2MTI5Mjk5NHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "ecommerce website"
+    }
+  ]
+}

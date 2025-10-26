@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Default to a dark, futuristic theme */
+    --background: 0 0% 0%; /* pure black */
+    --foreground: 210 40% 96%; /* off-white */
+
+    --card: 0 0% 6%;
+    --card-foreground: 210 40% 96%;
+
+    --popover: 0 0% 4%;
+    --popover-foreground: 210 40% 96%;
+
+    --primary: 190 95% 49%; /* neon cyan */
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 0 0% 12%;
+    --secondary-foreground: 210 40% 96%;
+
+    --muted: 0 0% 14%;
+    --muted-foreground: 210 10% 70%;
+
+    --accent: 0 0% 12%;
+    --accent-foreground: 210 40% 96%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 0 0% 15%;
+    --input: 0 0% 15%;
+    --ring: 190 95% 49%;
+
+    --radius: 0.75rem;
+  }
+
+  .dark {
+    /* Keep dark consistent with root to force black look everywhere */
+    --background: 0 0% 0%;
+    --foreground: 210 40% 96%;
+
+    --card: 0 0% 6%;
+    --card-foreground: 210 40% 96%;
+
+    --popover: 0 0% 4%;
+    --popover-foreground: 210 40% 96%;
+
+    --primary: 190 95% 49%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 0 0% 12%;
+    --secondary-foreground: 210 40% 96%;
+
+    --muted: 0 0% 14%;
+    --muted-foreground: 210 10% 70%;
+
+    --accent: 0 0% 12%;
+    --accent-foreground: 210 40% 96%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 0 0% 15%;
+    --input: 0 0% 15%;
+    --ring: 190 95% 49%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    /* Futuristic subtle glow background over black */
+    background:
+      radial-gradient(60% 40% at 20% -10%, hsla(190,95%,49%,0.12), transparent 60%),
+      radial-gradient(40% 30% at 90% 0%, hsla(270,95%,65%,0.10), transparent 60%),
+      hsl(var(--background));
+    @apply text-foreground;
+  }
+}

@@ -1,0 +1,22 @@
+# Settings to manage and configure a Firebase App Hosting backend.
+# https://firebase.google.com/docs/app-hosting/configure
+
+# Specifies the version of the App Hosting YAML schema.
+version: 1
+
+# Defines the build and run configuration for the Next.js app.
+run:
+  # Specifies the command to run the app.
+  command: npm run start
+  # Specifies the required Node.js version.
+  nodeVersion: 20
+
+# Defines the build process for the app.
+build:
+  # Specifies the command to build the app.
+  command: npm run build
+
+runConfig:
+  # Increase this value if you'd like to automatically spin up
+  # more instances in response to increased traffic.
+  maxInstances: 1
